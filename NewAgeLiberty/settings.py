@@ -26,7 +26,7 @@ SECRET_KEY = secret.SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['nal0.pythonanywhere.com/']
+ALLOWED_HOSTS = ['nal0.pythonanywhere.com/', '127.0.0.1']
 
 
 # Application definition
