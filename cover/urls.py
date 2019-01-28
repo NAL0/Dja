@@ -10,4 +10,7 @@ from django.urls import path
 urlpatterns = [
     path('', views.index, name='index'),
     path('mission/', views.index2, name='index2'),
+    path('donate/', views.index3, name='index3'),
+    path('mission/donate/', views.index3, name='index3'),
+    path('blog/donate/', views.index3, name='index3'),
     ]

@@ -7,3 +7,6 @@ def index(request):
 
 def index2(request):
 	return render(request, 'cover/mission.html')
+
+def index3(request):
+    return render(request, 'cover/donations.html')
